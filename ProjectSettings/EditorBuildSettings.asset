@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Row3Scene14.unity
     guid: 3a0c9292b8b73a249bfeee2965e9ad84
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: 2e41344ff5f9a334ba5e954d5d033174
   m_configObjects: {}
