@@ -502,7 +502,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isLoaded: 0
-  sceneCount: 0
 --- !u!4 &664000935
 Transform:
   m_ObjectHideFlags: 0
