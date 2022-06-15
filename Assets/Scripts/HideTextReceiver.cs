@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EndingArray : MonoBehaviour
+public class HideTextReceiver : MonoBehaviour
 {
     // Start is called before the first frame update
+    
+    
     public void hideText()
     {
-        
+    
     }
 
     // Update is called once per frame

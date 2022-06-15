@@ -16,7 +16,7 @@ public class FinalActive : MonoBehaviour
         
         Debug.Log("String " + StoryID);
         
-        Story = GameObject.FindWithTag(StoryID);
+        Story = GameObject.FindWithTag("Ending " + StoryID);
         Debug.Log(Story.tag);
         
         

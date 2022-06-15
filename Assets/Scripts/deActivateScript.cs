@@ -5,15 +5,17 @@ using UnityEngine;
 public class deActivateScript : MonoBehaviour
 {
     
-    public GameObject hideText;
+    public Transform[] Endings;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        hideText = GameObject.Find("Canvas");
+        Endings = new Transform[transform.childCount];
+
         BroadcastMessage("hideText");
        
-        hideText.SetActive(false);
+        
         
     }
 
